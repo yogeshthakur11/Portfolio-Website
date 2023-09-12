@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Editorial by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 <head>
@@ -35,93 +35,69 @@
       box-sizing: border-box;
     }
 
-
     @media (max-width: 790px) {
       .profile-image,
       .content {
         float: none;
         width: 100%;
       }
+     }
 
-     } 
+  </style>
 
   <style>
-  /* Added styles for the menu */
-  .menu-container {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .menu-item {
-    font-size: 14px;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px;
-    background-color: #000000;
-    border-radius: 5px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
-    transition: background-color 0.3s ease-in-out;
-  }
-
-  .menu-item:hover {
-    background-color: whitesmoke; /* Change the hover color to red */
-  }
-
-  .menu-item:active {
-    background-color: yellow;
-  }
-</style>
-
-<body>
-  <div class="cover-image">
-    <div class="menu-container">
-      <a href="index.html" class="menu-item">About Me</a>
-      <a href="Projects.html" class="menu-item">Projects</a>
-      <a href="https://medium.com/@yogeshtakur6689" class="menu-item">Blogs</a>
-      <a href="Contact.html" class="menu-item">Contact</a>
-    </div>
-    <h1></h1>
-  </div>
-
-
-
-
-
-
-							
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Projects Page</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      margin: 0;
-      padding: 0;
+    /* Added styles for the menu */
+    .menu-container {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
     }
 
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
+    .menu-item {
+      font-size: 14px;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px;
+      background-color: #000000;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .menu-item:hover {
+      background-color: whitesmoke; /* Change the hover color to red */
+    }
+
+    .menu-item:active {
+      background-color: yellow;
+    }
+  </style>
+
+  <style>
+    /* Added styles for the projects container */
+    .projects-container {
+      max-width: 1300px;
+      margin: 1px auto;
       padding: 20px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      background-image: url('images/project-background.jpg'); /* Set your background image URL here */
+      background-size: cover;
+      background-position: center;
     }
 
     .project {
-      width: 48%; /* Adjust the width as needed */
+      width: 48%;
       box-sizing: border-box;
-      background-color: #fff;
+      background-color: rgba(255, 255, 255, 0.9); /* Add background color with transparency */
       border: 1px solid #ccc;
       padding: 20px;
       text-align: center;
-      margin-bottom: -20px;
+      margin-bottom: 10px;
       transition: transform 0.2s;
     }
 
@@ -145,36 +121,39 @@
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="cover-image">
+    <div class="menu-container">
+      <a href="index.html" class="menu-item">About Me</a>
+      <a href="Projects.html" class="menu-item">Projects</a>
+      <a href="https://medium.com/@yogeshtakur6689" class="menu-item">Blogs</a>
+      <a href="Contact.html" class="menu-item">Contact</a>
+    </div>
+    <h1></h1>
+  </div>
+
+  <div class="projects-container">
     <div class="project">
       <a href="https://github.com/yogeshthakur11/Medical_inventory_opt">
-        <img src="images\Medical_inventory.jpg"
- alt="Project 1">
+        <img src="C:\Users\Yogesh Thakur\OneDrive\Desktop\Portfolio_Website\images\Medical_inventory.jpg" alt="Project 1">
         <div>Medical Inventory Optimisation</div>
       </a>
     </div>
     <div class="project">
       <a href="https://github.com/yogeshthakur11/Egg-Grading-Application">
-        <img src="images\poultry-farm.jpg"
- alt="Project 2">
+        <img src="images\poultry-farm.jpg" alt="Project 2">
         <div>Egg Grading Application</div>
       </a>
     </div>
-  </div>
-  <div class="container">
     <div class="project">
-      <a href="https://github.com/yogeshthakur11/Recomendation_system"
->
-        <img src="images\Recommendation.jpg"
- alt="Project 3">
+      <a href="https://github.com/yogeshthakur11/Recomendation_system">
+        <img src="images\Recommendation.jpg" alt="Project 3">
         <div>Movie Recommendation System</div>
       </a>
     </div>
     <div class="project">
-      <a href=https://github.com/yogeshthakur11/d_bounce_rate
->
-        <img src="images\index_cover_pic.jpg" alt="Project 4">
-        <div>Project 4</div>
+      <a href="https://github.com/yogeshthakur11/NLP-Projects">
+        <img src="C:\Users\Yogesh Thakur\OneDrive\Desktop\Portfolio_Website\images\nlp image.jpg" alt="Project 4">
+        <div>NLP (Sentiment Analysis)</div>
       </a>
     </div>
   </div>
