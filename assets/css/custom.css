@@ -1,0 +1,116 @@
+.cover-image {
+      background-image: url('../images/index_cover_pic.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 250px; /* Adjust the height as needed */
+      color: white;
+      text-align: center;
+      padding: 100px 0;
+    }
+
+    .profile-image {
+      float: left;
+      width: 40%; /* Adjust the width as needed */
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+     .content {
+      float: right;
+      width: 60%; /* Adjust the width as needed */
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    @media (max-width: 768px) {
+      .profile-image,
+      .content {
+        float: none;
+        width: 100%;
+      }
+     }
+
+    /* Additional styles for the menu */
+    .menu-container {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .menu-item {
+      font-size: 14px;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px;
+      background-color: #000000;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .menu-item:hover {
+      background-color: white; /* Change the hover color to red */
+    }
+
+    .menu-item:active {
+      background-color: yellow;
+    }
+
+    /* Added styles for the keywords section */
+    .keywords {
+      clear: both;
+      padding-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .keywords-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .keyword-box {
+      padding: 10px;
+      background-color: #add8e6; /* Background color for keyword boxes */
+      border-radius: 5px;
+      font-size:16px;
+      margin-bottom: 10px;
+      font-weight: bolder; /* Added font weight for thickness */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+      color: #222;
+      font-weight:bold;
+
+    }
+
+
+
+
+    .keywords-subheading {
+      font-size: 24px; /* Thicker subheading */
+      margin-top: 0px;
+      color: #555;
+      font-weight: bold; /* Added for boldness */
+    }
+
+    /* Styles for the download button */
+    .download-button {
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 18px;
+      background-color: #000000;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      align-items: center;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    .download-button:hover {
+      background-color: #0056b3;
+    }
